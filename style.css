@@ -18,6 +18,17 @@
 			text-align: center;
 			align-content: center;
 		}
+		.centertext{
+    text-align: center;
+		}
 		.par{
 			width: fit-content(20em);
 		}
+.body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: auto;
+}
