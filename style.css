@@ -1,29 +1,32 @@
 @charset "utf-8";
-		.title{
-			color: #FFFFFF;
-			text-align: center;	
-		}
-		.text{
-			font-family: "Ubuntu Regular";
-			src: url(../fonts/ubuntu.ttf) format("truetype");
-		}
-		.bg{
-			background-color:#090A12;
-		}
-		.foo{
-			color:#5A5A5A;
-			font-size: 13px
-		}
-		.center{
-			text-align: center;
-			align-content: center;
-		}
-		.centertext{
+.title{
+	color: #FFFFFF;
+	text-align: center;	
+}
+@font-face{
+	font-family: "Ubuntu Regular";
+	src: url(../fonts/ubuntu.woff2) format("woff2");
+}
+.text{
+	font-family: "Ubuntu Regular";
+}
+.bg{
+	background-color:#090A12;
+}
+.foo{
+	color:#5A5A5A;
+	font-size: 13px
+}
+.center{
+	text-align: center;
+	align-content: center;
+}
+.centertext{
     text-align: center;
-		}
-		.par{
-			width: fit-content(20em);
-		}
+}
+.par{
+	width: fit-content(20em);
+}
 .body{
     min-height: 100vh;
     display: flex;
