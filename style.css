@@ -5,7 +5,7 @@
 }
 @font-face{
 	font-family: "Ubuntu Regular";
-	src: url(../fonts/ubuntu.woff2) format("woff2");
+	src: url(../fonts/ubuntu.ttf) format("truetype");
 }
 .text{
 	font-family: "Ubuntu Regular";
