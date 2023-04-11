@@ -7,6 +7,36 @@
 	font-family: "Ubuntu Regular";
 	src: url(../fonts/ubuntu.ttf) format("truetype");
 }
+#input-link{
+	color: #FFFFFF;
+	background-color:#090A12;
+	width: fit-content(20em);
+}
+#output-link{
+	color: #FFFFFF;
+	background-color:#090A12;
+	width: fit-content(20em);
+}
+#input-link2{
+	color: #FFFFFF;
+	background-color:#090A12;
+	width: fit-content(20em);
+}
+#output-link2{
+	color: #FFFFFF;
+	background-color:#090A12;
+	width: fit-content(20em);
+}
+#dropDown{
+	color: #FFFFFF;
+	background-color:#090A12;
+}
+#filler{
+	align-content: center;
+}
+#16by9{
+	align-content: center;
+}
 .text{
 	font-family: "Ubuntu Regular";
 }
@@ -34,4 +64,17 @@
 }
 .footer{
     margin-top: auto;
+}
+.embed-responsive.embed-responsive-16by9 .form-group #dropDown {
+	color: #FFFFFF;
+}
+.form-control{
+	color: #FFFFFF;
+	background-color:#090A12;
+}
+.form-group{
+	align-content: center
+}
+.ig{
+	font-size: 40px;
 }
